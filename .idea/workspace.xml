@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83a06e58-670d-4a98-a444-bb6fb1392b29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ice1000_jimgui_core_v0_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simulations.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphing/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/BasicClient.java" afterDir="false" />
+    <list default="true" id="83a06e58-670d-4a98-a444-bb6fb1392b29" name="Changes" comment="initiate project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/perm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/perm/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/perm/MatrixInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/perm/impl/Matchmaking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/perm/impl/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/perm/impl/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/perm/impl/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/perm/tests/impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dna/translate/bio/Translate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dna/translate/bio/TranslateNoLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/piuslee/IdeaProjects/simulations"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/piuslee/IdeaProjects/simulations&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algo.perm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TranslateNoLogic">
     <configuration name="BasicClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.BasicClient" />
       <module name="simulations" />
@@ -65,8 +69,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Translate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dna.translate.bio.Translate" />
+      <module name="simulations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dna.translate.bio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TranslateNoLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dna.translate.bio.TranslateNoLogic" />
+      <module name="simulations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dna.translate.bio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TranslateNoLogic" />
+        <item itemvalue="Application.Translate" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.BasicClient" />
       </list>
     </recent_temporary>
@@ -80,6 +120,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655417291303</updated>
     </task>
+    <task id="LOCAL-00001" summary="initiate project">
+      <created>1655869649089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655869649089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initiate project" />
+    <option name="LAST_COMMIT_MESSAGE" value="initiate project" />
   </component>
 </project>
