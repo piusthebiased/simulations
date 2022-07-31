@@ -1,6 +1,4 @@
-package algo.perm.tests;
-
-import algo.perm.MatrixInt;
+package algo.volleyball_matchmaking.tests;
 
 public class impl {
     public static void main(String[] args) {
@@ -12,6 +10,5 @@ public class impl {
                 x[i][j] = count++;
             }
         }
-        MatrixInt m = new MatrixInt(x);
     }
 }
